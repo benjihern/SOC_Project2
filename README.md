@@ -1,1 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kOIIIFWX)
+Project 2 Report
+
+During this lab, I faced several challenges while implementing the intelligent Pong system. The biggest issue was modifying the Pong IP to expose the ball and paddle positions through the APB interface. In the process, I accidentally deleted critical files and had to recreate the IP from scratch. Another challenge was getting the LED indicators to work, which I later traced to not creating a new Vitis project after making hardware changes. Setting up UART communication with PuTTY was fairly straightforward, though configuring the APB interface parameters required careful attention.
+
+This assignment provided valuable experience in IP modification and APB interface implementation. I found that calculating the ball's trajectory was simpler than expected. After researching different methods online, I developed my own approach for predicting the ball’s landing position, which worked well. The project reinforced the importance of proper project management in embedded systems, particularly the need to regenerate software projects after hardware modifications. I also gained hands-on experience debugging APB interface connections and exposing internal game states through hardware interfaces.
+
